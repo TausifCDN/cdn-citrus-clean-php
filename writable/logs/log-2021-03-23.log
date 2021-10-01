@@ -1,0 +1,70 @@
+CRITICAL - 2021-03-23 00:07:37 --> Table 'modern.faq' doesn't exist
+#0 C:\wamp64\www\morder-solution\frontend\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT * FROM f...')
+#1 C:\wamp64\www\morder-solution\frontend\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM f...')
+#2 C:\wamp64\www\morder-solution\frontend\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM f...')
+#3 C:\wamp64\www\morder-solution\frontend\app\Controllers\Home.php(16): CodeIgniter\Database\BaseConnection->query('SELECT * FROM f...')
+#4 C:\wamp64\www\morder-solution\frontend\system\CodeIgniter.php(924): App\Controllers\Home->index()
+#5 C:\wamp64\www\morder-solution\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\morder-solution\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\morder-solution\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-23 00:26:39 --> syntax error, unexpected end of file
+#0 C:\wamp64\www\morder-solution\frontend\system\Common.php(1119): CodeIgniter\View\View->render('home', Array, true)
+#1 C:\wamp64\www\morder-solution\frontend\app\Controllers\Home.php(25): view('home', Array)
+#2 C:\wamp64\www\morder-solution\frontend\system\CodeIgniter.php(924): App\Controllers\Home->index()
+#3 C:\wamp64\www\morder-solution\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\wamp64\www\morder-solution\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\morder-solution\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-23 00:30:58 --> Undefined variable: sections
+#0 C:\wamp64\www\morder-solution\frontend\app\Controllers\Home.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 22, Array)
+#1 C:\wamp64\www\morder-solution\frontend\system\CodeIgniter.php(924): App\Controllers\Home->index()
+#2 C:\wamp64\www\morder-solution\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\morder-solution\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\morder-solution\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-23 00:41:35 --> Table 'modern.grid' doesn't exist
+#0 C:\wamp64\www\morder-solution\frontend\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT * FROM g...')
+#1 C:\wamp64\www\morder-solution\frontend\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM g...')
+#2 C:\wamp64\www\morder-solution\frontend\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM g...')
+#3 C:\wamp64\www\morder-solution\frontend\app\Controllers\Home.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM g...')
+#4 C:\wamp64\www\morder-solution\frontend\system\CodeIgniter.php(924): App\Controllers\Home->index()
+#5 C:\wamp64\www\morder-solution\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\morder-solution\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\morder-solution\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-23 00:41:56 --> Undefined variable: grid
+#0 C:\wamp64\www\morder-solution\frontend\app\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 27, Array)
+#1 C:\wamp64\www\morder-solution\frontend\system\CodeIgniter.php(924): App\Controllers\Home->index()
+#2 C:\wamp64\www\morder-solution\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\morder-solution\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\morder-solution\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-23 01:02:41 --> syntax error, unexpected '<'
+#0 C:\wamp64\www\morder-solution\frontend\system\Common.php(1119): CodeIgniter\View\View->render('home', Array, true)
+#1 C:\wamp64\www\morder-solution\frontend\app\Controllers\Home.php(41): view('home', Array)
+#2 C:\wamp64\www\morder-solution\frontend\system\CodeIgniter.php(924): App\Controllers\Home->index()
+#3 C:\wamp64\www\morder-solution\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\wamp64\www\morder-solution\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\morder-solution\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-23 01:03:11 --> Undefined index: image
+#0 C:\wamp64\www\morder-solution\frontend\app\Views\home.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\m...', 224, Array)
+#1 C:\wamp64\www\morder-solution\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\morder-solution\frontend\system\Common.php(1119): CodeIgniter\View\View->render('home', Array, true)
+#3 C:\wamp64\www\morder-solution\frontend\app\Controllers\Home.php(41): view('home', Array)
+#4 C:\wamp64\www\morder-solution\frontend\system\CodeIgniter.php(924): App\Controllers\Home->index()
+#5 C:\wamp64\www\morder-solution\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\morder-solution\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\morder-solution\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-23 01:26:18 --> Undefined variable: client
+#0 C:\wamp64\www\morder-solution\frontend\app\Views\home.php(334): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 334, Array)
+#1 C:\wamp64\www\morder-solution\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\morder-solution\frontend\system\Common.php(1119): CodeIgniter\View\View->render('home', Array, true)
+#3 C:\wamp64\www\morder-solution\frontend\app\Controllers\Home.php(41): view('home', Array)
+#4 C:\wamp64\www\morder-solution\frontend\system\CodeIgniter.php(924): App\Controllers\Home->index()
+#5 C:\wamp64\www\morder-solution\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\morder-solution\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\morder-solution\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}

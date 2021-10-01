@@ -1,0 +1,41 @@
+CRITICAL - 2021-02-26 06:27:47 --> Undefined variable: package
+#0 /var/www/html/sunstone/app/Views/payment.php(583): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Payment.php(55): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Payment->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-26 06:28:27 --> Undefined variable: service
+#0 /var/www/html/sunstone/app/Views/addons.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Addons.php(38): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Addons->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-26 07:30:00 --> Undefined variable: service
+#0 /var/www/html/sunstone/app/Views/addons.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Addons.php(38): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Addons->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-26 11:18:00 --> Class Home does not exist
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Debug\Toolbar\Collectors\Routes.php(107): ReflectionMethod->__construct('Home', '_remap')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\Debug\Toolbar\Collectors\BaseCollector.php(307): CodeIgniter\Debug\Toolbar\Collectors\Routes->display()
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Debug\Toolbar.php(128): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\Debug\Toolbar.php(356): CodeIgniter\Debug\Toolbar->run(1614359880.6609, 0.1039, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\Filters\DebugToolbar.php(78): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\Filters\Filters.php(199): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(428): CodeIgniter\Filters\Filters->run('', 'after')
+#7 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,264 @@
+CRITICAL - 2021-03-03 01:04:39 --> Undefined variable: service
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Views\payment.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 21, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\View\View.php(246): include('F:\\wamp\\www\\fre...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('payment', Array, true)
+#3 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Payment.php(55): view('payment', Array)
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Payment->index()
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-03 01:06:24 --> Undefined variable: services
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Views\payment.php(543): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 543, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\View\View.php(246): include('F:\\wamp\\www\\fre...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('payment', Array, true)
+#3 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Payment.php(18): view('payment', Array)
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Payment->index()
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-03 01:07:27 --> Undefined variable: services
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Views\payment.php(543): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 543, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\View\View.php(246): include('F:\\wamp\\www\\fre...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('payment', Array, true)
+#3 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Payment.php(24): view('payment', Array)
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Payment->index()
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-03 01:07:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getResults()
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Payment->index()
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-03 01:07:57 --> Undefined variable: services
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Views\payment.php(543): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 543, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\View\View.php(246): include('F:\\wamp\\www\\fre...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('payment', Array, true)
+#3 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Payment.php(24): view('payment', Array)
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Payment->index()
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-03 01:09:56 --> Undefined variable: service2
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Views\payment.php(793): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 793, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\View\View.php(246): include('F:\\wamp\\www\\fre...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('payment', Array, true)
+#3 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Payment.php(25): view('payment', Array)
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Payment->index()
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-03 01:34:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sales_temp.session_id='1'' at line 1
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT packages...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT packages...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT packages...')
+#3 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Payment.php(15): CodeIgniter\Database\BaseConnection->query('SELECT packages...')
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Payment->index()
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-03 01:35:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sales_temp.session_id='1'' at line 1
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT package_...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT package_...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT package_...')
+#3 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Payment.php(18): CodeIgniter\Database\BaseConnection->query('SELECT package_...')
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Payment->index()
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-03 01:35:12 --> Undefined variable: packages
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Views\payment.php(317): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 317, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\View\View.php(246): include('F:\\wamp\\www\\fre...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('payment', Array, true)
+#3 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Payment.php(37): view('payment', Array)
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Payment->index()
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-03 01:35:35 --> Undefined variable: addon_price
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Views\payment.php(368): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 368, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\View\View.php(246): include('F:\\wamp\\www\\fre...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('payment', Array, true)
+#3 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Payment.php(39): view('payment', Array)
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Payment->index()
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-03 07:39:53 --> syntax error, unexpected ''<div class="row">' (T_CONSTANT_ENCAPSED_STRING)
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/ajax/get_packa...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/ajax/get_packa...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-03 07:40:17 --> Undefined variable: packages
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Ajax.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 68, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Ajax->get_packages()
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-03 07:41:08 --> Undefined variable: packages
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Ajax.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 68, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Ajax->get_packages()
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-03 07:41:36 --> Undefined variable: str
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Ajax.php(155): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 155, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Ajax->get_packages()
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-03 07:45:42 --> Undefined variable: servcie_id
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Ajax.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 18, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Ajax->get_packages()
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-03 07:46:20 --> Undefined variable: servcie_id
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Ajax.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 18, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Ajax->get_packages()
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-03 07:47:05 --> Undefined variable: servcie_id
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Ajax.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 27, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Ajax->get_packages()
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-03 07:47:22 --> Undefined variable: package_points
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Ajax.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 113, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Ajax->get_packages()
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-03 08:10:14 --> syntax error, unexpected ';', expecting ',' or ')'
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/ajax/get_packa...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/ajax/get_packa...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-03 08:10:16 --> syntax error, unexpected ';', expecting ',' or ')'
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/ajax/get_packa...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/ajax/get_packa...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-03 08:17:11 --> syntax error, unexpected '<'
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/ajax/get_packa...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/ajax/get_packa...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-03 08:17:12 --> syntax error, unexpected '<'
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/ajax/get_packa...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/ajax/get_packa...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-03 12:07:19 --> syntax error, unexpected '<'
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/ajax/get_packa...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/ajax/get_packa...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-03 12:07:20 --> syntax error, unexpected '<'
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/ajax/get_packa...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/ajax/get_packa...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-03 12:07:23 --> syntax error, unexpected '<'
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/ajax/get_packa...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/ajax/get_packa...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-03 12:08:06 --> syntax error, unexpected '<'
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/ajax/get_packa...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/ajax/get_packa...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-03 12:30:34 --> syntax error, unexpected 'if' (T_IF)
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/ajax/get_packa...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/ajax/get_packa...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-03 12:30:35 --> syntax error, unexpected 'if' (T_IF)
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/ajax/get_packa...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/ajax/get_packa...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-03 12:30:36 --> syntax error, unexpected 'if' (T_IF)
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/ajax/get_packa...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/ajax/get_packa...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-03 12:31:52 --> syntax error, unexpected '.'
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/ajax/get_packa...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/ajax/get_packa...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-03 13:01:59 --> Undefined variable: a
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Ajax.php(380): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 380, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Ajax->get_addons()
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-03 13:02:00 --> Undefined variable: a
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Ajax.php(380): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 380, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Ajax->get_addons()
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-03 13:02:01 --> Undefined variable: a
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Ajax.php(380): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 380, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Ajax->get_addons()
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-03 13:02:01 --> Undefined variable: a
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Ajax.php(380): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 380, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Ajax->get_addons()
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}

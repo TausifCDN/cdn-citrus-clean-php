@@ -1,0 +1,6 @@
+CRITICAL - 2021-07-06 03:39:03 --> Call to undefined method App\Controllers\Careers::save()
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Careers->add_validation()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Careers))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}

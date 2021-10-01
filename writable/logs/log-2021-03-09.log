@@ -1,0 +1,36 @@
+CRITICAL - 2021-03-09 06:44:53 --> Undefined index: email
+#0 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\s...', 116, Array)
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->forgot()
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-09 06:45:30 --> Undefined index: email
+#0 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\s...', 116, Array)
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->forgot()
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-09 07:03:46 --> Unknown column 'cc_name' in 'field list'
+#0 C:\wamp64\www\sunstone\frontend\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `us...')
+#1 C:\wamp64\www\sunstone\frontend\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp64\www\sunstone\frontend\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp64\www\sunstone\frontend\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp64\www\sunstone\frontend\app\Controllers\Profile.php(107): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Profile->paymentAdd()
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#7 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-09 07:04:17 --> Unknown column 'created_at' in 'field list'
+#0 C:\wamp64\www\sunstone\frontend\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `us...')
+#1 C:\wamp64\www\sunstone\frontend\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\wamp64\www\sunstone\frontend\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\wamp64\www\sunstone\frontend\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\wamp64\www\sunstone\frontend\app\Controllers\Profile.php(107): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Profile->paymentAdd()
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#7 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}

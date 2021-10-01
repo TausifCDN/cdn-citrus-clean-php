@@ -1,0 +1,341 @@
+CRITICAL - 2021-03-08 00:26:58 --> Undefined index: text
+#0 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\s...', 61, Array)
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->search()
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 00:52:02 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+#0 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\wamp64\\www\\s...', 79, Array)
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->signin()
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 00:52:16 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+#0 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\wamp64\\www\\s...', 79, Array)
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->signin()
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 00:58:15 --> Call to undefined function App\Controllers\validation_errors()
+#0 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->signin()
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-08 01:04:38 --> Undefined variable: db
+#0 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 79, Array)
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->signin()
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 01:05:05 --> Unknown column 'email' in 'where clause'
+#0 C:\wamp64\www\sunstone\frontend\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT * FROM u...')
+#1 C:\wamp64\www\sunstone\frontend\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\wamp64\www\sunstone\frontend\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->signin()
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-08 01:36:34 --> Undefined index: email
+#0 C:\wamp64\www\sunstone\frontend\app\Views\__partial\__header.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\s...', 29, Array)
+#1 C:\wamp64\www\sunstone\frontend\app\Views\home.php(56): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\sunstone\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(50): view('home', Array)
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->index()
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-08 01:36:36 --> Undefined index: email
+#0 C:\wamp64\www\sunstone\frontend\app\Views\__partial\__header.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\s...', 29, Array)
+#1 C:\wamp64\www\sunstone\frontend\app\Views\home.php(56): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\sunstone\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(50): view('home', Array)
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->index()
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-08 01:37:36 --> Undefined index: status
+#0 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\s...', 85, Array)
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->signin()
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 01:39:10 --> Undefined variable: _SESSION
+#0 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 7, Array)
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->index()
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 01:41:15 --> Undefined variable: config
+#0 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 7, Array)
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->index()
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 06:04:48 --> Encrypter needs a starter key.
+#0 C:\wamp64\www\sunstone\frontend\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\wamp64\www\sunstone\frontend\system\Config\Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(113): CodeIgniter\Config\Services::encrypter()
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->signup()
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-08 06:10:21 --> Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+#0 C:\wamp64\www\sunstone\frontend\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT * FROM u...')
+#1 C:\wamp64\www\sunstone\frontend\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\wamp64\www\sunstone\frontend\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(88): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->signin()
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-08 06:10:21 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\wamp64\www\sunstone\frontend\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 C:\wamp64\www\sunstone\frontend\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\wamp64\www\sunstone\frontend\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\sunstone\frontend\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\sunstone\frontend\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-08 06:14:05 --> syntax error, unexpected 'password' (T_STRING), expecting ')'
+#0 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/home/signin')
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/home/signin')
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 06:14:24 --> syntax error, unexpected 'password' (T_STRING), expecting ')'
+#0 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/home/signin')
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/home/signin')
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 06:15:08 --> Decrypting: authentication failed.
+#0 C:\wamp64\www\sunstone\frontend\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(91): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('$??@m?6??z*Ek??...')
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->signin()
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-08 06:15:59 --> Decrypting: authentication failed.
+#0 C:\wamp64\www\sunstone\frontend\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(91): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('$??@m?6??z*Ek??...')
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->signin()
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-08 06:17:57 --> syntax error, unexpected ';', expecting ')'
+#0 C:\wamp64\www\sunstone\frontend\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\wamp64\\www\\s...')
+#1 C:\wamp64\www\sunstone\frontend\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(875): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-08 06:18:47 --> syntax error, unexpected ';', expecting ')'
+#0 C:\wamp64\www\sunstone\frontend\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\wamp64\\www\\s...')
+#1 C:\wamp64\www\sunstone\frontend\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(875): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-08 07:13:29 --> syntax error, unexpected 'password' (T_STRING), expecting ')'
+#0 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/home/signin')
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/home/signin')
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 07:15:17 --> syntax error, unexpected '$password2' (T_VARIABLE), expecting ')'
+#0 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/home/signin')
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/home/signin')
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 07:15:28 --> password_hash(): Unknown password hashing algorithm: 123456789
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash()...', 'C:\\wamp64\\www\\s...', 81, Array)
+#1 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(81): password_hash('12345', '123456789')
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->signin()
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-08 07:17:56 --> Undefined variable: password
+#0 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 84, Array)
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->signin()
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 07:31:42 --> Cannot redeclare App\Controllers\Home::signin()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-08 07:49:29 --> Undefined index: user_name
+#0 C:\wamp64\www\sunstone\frontend\app\Views\profile.php(155): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\s...', 155, Array)
+#1 C:\wamp64\www\sunstone\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\wamp64\www\sunstone\frontend\app\Controllers\Profile.php(11): view('profile')
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Profile->index()
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-08 07:54:36 --> Undefined index: user_name
+#0 C:\wamp64\www\sunstone\frontend\app\Views\profile.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\s...', 156, Array)
+#1 C:\wamp64\www\sunstone\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\wamp64\www\sunstone\frontend\app\Controllers\Profile.php(27): view('profile', Array)
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Profile->index()
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-08 08:39:09 --> Undefined variable: datas
+#0 C:\wamp64\www\sunstone\frontend\app\Controllers\Profile.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 47, Array)
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Profile->index()
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 08:41:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '
+ 				package_id='16'' at line 1
+#0 C:\wamp64\www\sunstone\frontend\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT * FROM s...')
+#1 C:\wamp64\www\sunstone\frontend\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 C:\wamp64\www\sunstone\frontend\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 C:\wamp64\www\sunstone\frontend\app\Controllers\Profile.php(42): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Profile->index()
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-08 08:47:15 --> Undefined index: point
+#0 C:\wamp64\www\sunstone\frontend\app\Controllers\Profile.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\s...', 46, Array)
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Profile->index()
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-08 08:48:47 --> Undefined index: name
+#0 C:\wamp64\www\sunstone\frontend\app\Views\profile.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\s...', 156, Array)
+#1 C:\wamp64\www\sunstone\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\wamp64\www\sunstone\frontend\app\Controllers\Profile.php(45): view('profile', Array)
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Profile->index()
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-08 08:49:27 --> Undefined index: email
+#0 C:\wamp64\www\sunstone\frontend\app\Views\profile.php(160): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\s...', 160, Array)
+#1 C:\wamp64\www\sunstone\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\wamp64\www\sunstone\frontend\app\Controllers\Profile.php(45): view('profile', Array)
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Profile->index()
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-08 08:58:49 --> Undefined index: image
+#0 C:\wamp64\www\sunstone\frontend\app\Views\profile.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\s...', 204, Array)
+#1 C:\wamp64\www\sunstone\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\wamp64\www\sunstone\frontend\app\Controllers\Profile.php(46): view('profile', Array)
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Profile->index()
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-08 09:00:43 --> Undefined index: image
+#0 C:\wamp64\www\sunstone\frontend\app\Views\profile.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\s...', 204, Array)
+#1 C:\wamp64\www\sunstone\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\wamp64\www\sunstone\frontend\app\Controllers\Profile.php(46): view('profile', Array)
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Profile->index()
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-08 09:02:27 --> Undefined index: image
+#0 C:\wamp64\www\sunstone\frontend\app\Views\profile.php(201): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\s...', 201, Array)
+#1 C:\wamp64\www\sunstone\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\wamp64\www\sunstone\frontend\app\Controllers\Profile.php(46): view('profile', Array)
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Profile->index()
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-08 09:05:05 --> Undefined index: image
+#0 C:\wamp64\www\sunstone\frontend\app\Views\profile.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\s...', 204, Array)
+#1 C:\wamp64\www\sunstone\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\wamp64\www\sunstone\frontend\app\Controllers\Profile.php(46): view('profile', Array)
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Profile->index()
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-08 09:06:44 --> Undefined index: image
+#0 C:\wamp64\www\sunstone\frontend\app\Views\profile.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\s...', 204, Array)
+#1 C:\wamp64\www\sunstone\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\wamp64\www\sunstone\frontend\app\Controllers\Profile.php(47): view('profile', Array)
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Profile->index()
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-08 09:31:53 --> Undefined index: addon_title
+#0 C:\wamp64\www\sunstone\frontend\app\Views\profile.php(251): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\s...', 251, Array)
+#1 C:\wamp64\www\sunstone\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\wamp64\www\sunstone\frontend\app\Controllers\Profile.php(47): view('profile', Array)
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Profile->index()
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-08 09:35:27 --> Column 'package_id' in where clause is ambiguous
+#0 C:\wamp64\www\sunstone\frontend\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT * FROM s...')
+#1 C:\wamp64\www\sunstone\frontend\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 C:\wamp64\www\sunstone\frontend\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 C:\wamp64\www\sunstone\frontend\app\Controllers\Profile.php(42): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Profile->index()
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-08 10:01:05 --> syntax error, unexpected ';'
+#0 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/profile/update')
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/profile/update')
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}

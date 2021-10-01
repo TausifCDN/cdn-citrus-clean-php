@@ -1,0 +1,30 @@
+CRITICAL - 2021-03-29 05:19:29 --> Column 'id' in where clause is ambiguous
+#0 C:\wamp64\www\cdnccc\frontend\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT products...')
+#1 C:\wamp64\www\cdnccc\frontend\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT products...')
+#2 C:\wamp64\www\cdnccc\frontend\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT products...')
+#3 C:\wamp64\www\cdnccc\frontend\app\Controllers\Ajax.php(18): CodeIgniter\Database\BaseConnection->query('SELECT products...')
+#4 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Ajax->qty_change()
+#5 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#6 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-29 05:42:32 --> Undefined variable: totaldiscount
+#0 C:\wamp64\www\cdnccc\frontend\app\Views\checkout.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 27, Array)
+#1 C:\wamp64\www\cdnccc\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\cdnccc\frontend\system\Common.php(1119): CodeIgniter\View\View->render('checkout', Array, true)
+#3 C:\wamp64\www\cdnccc\frontend\app\Controllers\Payments.php(84): view('checkout', Array)
+#4 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Payments->checkout()
+#5 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#6 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-29 05:52:46 --> Undefined index: product_image
+#0 C:\wamp64\www\cdnccc\frontend\app\Views\products.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\c...', 46, Array)
+#1 C:\wamp64\www\cdnccc\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\cdnccc\frontend\system\Common.php(1119): CodeIgniter\View\View->render('products', Array, true)
+#3 C:\wamp64\www\cdnccc\frontend\app\Controllers\Products.php(43): view('products', Array)
+#4 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Products->index()
+#5 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}

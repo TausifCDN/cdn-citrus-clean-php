@@ -1,0 +1,41 @@
+CRITICAL - 2021-04-01 01:37:43 --> Unable to connect to the database.
+#0 C:\wamp64\www\cdncc\frontend\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\cdncc\frontend\app\Controllers\Home.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#2 C:\wamp64\www\cdncc\frontend\system\CodeIgniter.php(924): App\Controllers\Home->index()
+#3 C:\wamp64\www\cdncc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\wamp64\www\cdncc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\cdncc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-01 02:06:46 --> Use of undefined constant base_url - assumed 'base_url' (this will throw an Error in a future version of PHP)
+#0 C:\wamp64\www\cdncc\frontend\app\Views\home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\wamp64\\www\\c...', 20, Array)
+#1 C:\wamp64\www\cdncc\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\cdncc\frontend\system\Common.php(1119): CodeIgniter\View\View->render('home', Array, true)
+#3 C:\wamp64\www\cdncc\frontend\app\Controllers\Home.php(25): view('home', Array)
+#4 C:\wamp64\www\cdncc\frontend\system\CodeIgniter.php(924): App\Controllers\Home->index()
+#5 C:\wamp64\www\cdncc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\cdncc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\cdncc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-01 06:16:42 --> Undefined index: user_id
+#0 C:\wamp64\www\cdncc\frontend\app\Controllers\User.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\c...', 50, Array)
+#1 C:\wamp64\www\cdncc\frontend\system\CodeIgniter.php(924): App\Controllers\User->profile()
+#2 C:\wamp64\www\cdncc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\wamp64\www\cdncc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\cdncc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-01 07:04:34 --> Undefined index:  address
+#0 C:\wamp64\www\cdncc\frontend\app\Views\profile.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\c...', 144, Array)
+#1 C:\wamp64\www\cdncc\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\cdncc\frontend\system\Common.php(1119): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\wamp64\www\cdncc\frontend\app\Controllers\User.php(55): view('profile', Array)
+#4 C:\wamp64\www\cdncc\frontend\system\CodeIgniter.php(924): App\Controllers\User->profile()
+#5 C:\wamp64\www\cdncc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\wamp64\www\cdncc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\cdncc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-01 12:17:46 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-01 12:18:03 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

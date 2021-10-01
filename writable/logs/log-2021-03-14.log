@@ -1,0 +1,13 @@
+CRITICAL - 2021-03-14 23:51:56 --> Undefined variable: service
+#0 C:\wamp64\www\sunstone\frontend\app\Views\addons.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 20, Array)
+#1 C:\wamp64\www\sunstone\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('addons', Array, true)
+#3 C:\wamp64\www\sunstone\frontend\app\Controllers\Addons.php(38): view('addons', Array)
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Addons->index()
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-14 23:58:03 --> strict_types declaration must be the very first statement in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

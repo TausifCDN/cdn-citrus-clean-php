@@ -1,0 +1,43 @@
+
+<script src="https://js.stripe.com/v3/"></script>
+<script>
+function h_payment(sale_id)
+{
+
+
+
+/*
+Plan3-
+price_1IXIiVSFFXFieOESo939MjJK
+
+Plan2-
+price_1IXIi0SFFXFieOES6OGJIH2J
+
+Plan1-
+price_1IXIhRSFFXFieOESBzvsxHVU
+
+
+
+a.put candly iframe
+b. save value in via ajax
+c. after save, it will give you saleid
+d. after save h_payment function with sale_id
+e. in 
+*/
+
+
+var stripe = Stripe('pk_test_51IXIdWSFFXFieOESYRk1D7mOEyp2npjWbrG0FrdW1qe1SC6mPqnOHIohD9nIc0DGpmakMuO2gKRdIATWSN3I4yZ400qATptPB5');
+
+  stripe.redirectToCheckout({
+    lineItems: [{
+      price: 'price_1IXIhRSFFXFieOESBzvsxHVU',
+      quantity: 1
+    }],
+    mode: 'payment',
+    successUrl: '<?php echo base_url('/').'/success/'.base64_encode($session->user_id).'/{CHECKOUT_SESSION_ID}';?>',
+    cancelUrl: '<?php echo base_url('/').'/cancel/'.base64_encode($session->user_id).'/{CHECKOUT_SESSION_ID}';?>'
+  });
+
+}
+
+</script>

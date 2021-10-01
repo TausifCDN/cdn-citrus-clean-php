@@ -1,0 +1,11 @@
+CRITICAL - 2021-07-24 11:51:27 --> Invalid argument supplied for foreach()
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Views/__partial/__available.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/vntcbq34d...', 14, Array)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Views/all_products.php(191): include('/home/vntcbq34d...')
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/View/View.php(246): include('/home/vntcbq34d...')
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(1119): CodeIgniter\View\View->render('all_products', Array, true)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Products.php(56): view('all_products', Array)
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Products->all_products()
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,69 @@
+CRITICAL - 2021-03-15 00:02:06 --> Undefined variable: result
+#0 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(195): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 195, Array)
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->signup()
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 00:18:12 --> Undefined variable: result
+#0 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(195): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 195, Array)
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->signup()
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 00:18:43 --> Undefined variable: result
+#0 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(195): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 195, Array)
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->signup()
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 00:32:17 --> syntax error, unexpected '}', expecting ',' or ';'
+#0 C:\wamp64\www\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('portfolios', Array, true)
+#1 C:\wamp64\www\sunstone\frontend\app\Controllers\Portfolios.php(14): view('portfolios', Array)
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Portfolios->index()
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portfolios))
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-15 01:53:43 --> syntax error, unexpected ')'
+#0 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/home/forgot')
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/home/forgot')
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 01:53:50 --> syntax error, unexpected ')'
+#0 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/home/forgot')
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/home/forgot')
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-15 01:54:21 --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\wamp64\\www\\s...', 158, Array)
+#1 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(158): mail('test@gmail.com', 'Password recove...', 'You have applie...')
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->forgot()
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-15 02:11:37 --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\wamp64\\www\\s...', 158, Array)
+#1 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(158): mail('test@gmail.com', 'Password recove...', 'You have applie...')
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->forgot()
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-15 03:53:47 --> Undefined variable: ongoing
+#0 C:\wamp64\www\sunstone\frontend\app\Views\profile.php(229): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 229, Array)
+#1 C:\wamp64\www\sunstone\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\wamp64\www\sunstone\frontend\app\Controllers\Profile.php(81): view('profile', Array)
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Profile->index()
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,28 @@
+CRITICAL - 2021-06-20 11:29:05 --> Unable to connect to the database.
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Products.php(18): CodeIgniter\Database\BaseConnection->query('select category...')
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Products->index()
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-20 11:55:15 --> Invalid argument supplied for foreach()
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Views/admin/orders.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/vntcbq34d...', 22, Array)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/View/View.php(246): include('/home/vntcbq34d...')
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(1119): CodeIgniter\View\View->render('admin/orders', Array, true)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Orders.php(15): view('admin/orders', Array)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Orders->index()
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Orders))
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-20 12:59:16 --> Invalid argument supplied for foreach()
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Views/admin/editProduct.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/vntcbq34d...', 47, Array)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/View/View.php(246): include('/home/vntcbq34d...')
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(1119): CodeIgniter\View\View->render('admin/editProdu...', Array, true)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Products.php(105): view('admin/editProdu...', Array)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Products->editProduct()
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,534 @@
+CRITICAL - 2021-03-11 00:22:15 --> Table 'sunstone.service_packages' doesn't exist
+#0 C:\wamp64\www\sunstone\frontend\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT packages...')
+#1 C:\wamp64\www\sunstone\frontend\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT packages...')
+#2 C:\wamp64\www\sunstone\frontend\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT packages...')
+#3 C:\wamp64\www\sunstone\frontend\app\Controllers\Services.php(30): CodeIgniter\Database\BaseConnection->query('SELECT packages...')
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Services->index()
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-11 01:02:12 --> password_hash(): Unknown password hashing algorithm: 123456789
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash()...', 'C:\\wamp64\\www\\s...', 155, Array)
+#1 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(155): password_hash('ll', '123456789')
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->signup()
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-11 01:02:21 --> password_hash(): Unknown password hashing algorithm: 123456789
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash()...', 'C:\\wamp64\\www\\s...', 155, Array)
+#1 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(155): password_hash('ll', '123456789')
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->signup()
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-11 01:03:16 --> Class 'ThirdParty\Square\Models\CreateCustomerRequest' not found
+#0 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(143): get_customerId('abc@gmail.com')
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->signup()
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 01:04:22 --> Class 'ThirdParty\squareapi\Models\CreateCustomerRequest' not found
+#0 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(143): get_customerId('abc@gmail.com')
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->signup()
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 01:05:11 --> Call to undefined function ThirdParty\squareapi\Models\CreateCustomerRequest()
+#0 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(143): get_customerId('abc@gmail.com')
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->signup()
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 01:05:36 --> Class 'ThirdParty\squareapi\Models' not found
+#0 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(143): get_customerId('abc@gmail.com')
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->signup()
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 01:13:04 --> syntax error, unexpected 'function' (T_FUNCTION)
+#0 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(149): helper(Array)
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->signup()
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 01:13:31 --> Interface 'Square\ConfigurationInterface' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-11 01:17:45 --> syntax error, unexpected 'use' (T_USE)
+#0 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(149): helper(Array)
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->signup()
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 01:18:08 --> Interface 'Square\ConfigurationInterface' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-11 01:20:01 --> Interface 'Square\ConfigurationInterface' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-11 01:21:12 --> main(): Failed opening required 'C:\wamp64\www\sunstone\frontend\app\ThirdParty\squareapi\SquareClient.php' (include_path='.;C:\php\pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-11 01:21:17 --> main(): Failed opening required 'C:\wamp64\www\sunstone\frontend\app\ThirdParty\squareapi\SquareClient.php' (include_path='.;C:\php\pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-11 01:21:32 --> Interface 'Square\ConfigurationInterface' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-11 01:23:13 --> Interface 'Square\ConfigurationInterface' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-11 02:53:54 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: App\Controllers\Home->{closure}('App\\Controllers...')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(209): spl_autoload_call('App\\Controllers...')
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 02:54:57 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: App\Controllers\Home->{closure}('App\\Controllers...')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(209): spl_autoload_call('App\\Controllers...')
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 02:56:19 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: App\Controllers\Home->{closure}('App\\Controllers...')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(209): spl_autoload_call('App\\Controllers...')
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 02:58:23 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: App\Controllers\Home->{closure}('App\\Controllers...')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(209): spl_autoload_call('App\\Controllers...')
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 02:58:44 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: App\Controllers\Home->{closure}('App\\Controllers...')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(209): spl_autoload_call('App\\Controllers...')
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 02:59:39 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: App\Controllers\Home->{closure}('App\\Controllers...')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(209): spl_autoload_call('App\\Controllers...')
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 03:02:05 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: App\Controllers\Home->{closure}('App\\Controllers...')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(223): spl_autoload_call('App\\Controllers...')
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 03:02:47 --> syntax error, unexpected 'CreateCustomerRequest' (T_STRING), expecting variable (T_VARIABLE) or '$'
+#0 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/home/square_te...')
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/home/square_te...')
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 03:03:26 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: App\Controllers\Home->{closure}('App\\Controllers...')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(223): spl_autoload_call('App\\Controllers...')
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 03:03:42 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: App\Controllers\Home->{closure}('App\\Controllers...')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(223): spl_autoload_call('App\\Controllers...')
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 03:03:59 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: App\Controllers\Home->{closure}('App\\Controllers...')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(223): spl_autoload_call('App\\Controllers...')
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 03:04:01 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: App\Controllers\Home->{closure}('App\\Controllers...')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(223): spl_autoload_call('App\\Controllers...')
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 03:05:11 --> syntax error, unexpected 'CreateCustomerRequest' (T_STRING), expecting variable (T_VARIABLE) or '$'
+#0 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/home/square_te...')
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/home/square_te...')
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 03:05:23 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: App\Controllers\Home->{closure}('Models\\CreateCu...')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(223): spl_autoload_call('Models\\CreateCu...')
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 03:05:41 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: App\Controllers\Home->{closure}('Models')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(223): spl_autoload_call('Models')
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 03:05:52 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: App\Controllers\Home->{closure}('App\\Controllers...')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(223): spl_autoload_call('App\\Controllers...')
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 03:07:38 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: App\Controllers\Home->{closure}('App\\Controllers...')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(223): spl_autoload_call('App\\Controllers...')
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 03:13:31 --> Undefined variable: body
+#0 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(217): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 217, Array)
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 03:14:07 --> Too few arguments to function Square\Apis\CustomersApi::createCustomer(), 0 passed in C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php on line 218 and exactly 1 expected
+#0 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(218): Square\Apis\CustomersApi->createCustomer()
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 03:14:25 --> Argument 1 passed to Square\Apis\CustomersApi::createCustomer() must be an instance of Square\Models\CreateCustomerRequest, string given, called in C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php on line 218
+#0 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(218): Square\Apis\CustomersApi->createCustomer('a')
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 03:23:49 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: CodeIgniter\Router\Router->{closure}('BaseController')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(16): spl_autoload_call('BaseController')
+#3 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(583): include_once('C:\\wamp64\\www\\s...')
+#4 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/home/square_te...')
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/home/square_te...')
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-11 03:25:07 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: CodeIgniter\Router\Router->{closure}('BaseController')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(16): spl_autoload_call('BaseController')
+#3 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(583): include_once('C:\\wamp64\\www\\s...')
+#4 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/home/square_te...')
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/home/square_te...')
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-11 03:25:08 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: CodeIgniter\Router\Router->{closure}('BaseController')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(16): spl_autoload_call('BaseController')
+#3 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(583): include_once('C:\\wamp64\\www\\s...')
+#4 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/home/square_te...')
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/home/square_te...')
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-11 03:25:09 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: CodeIgniter\Router\Router->{closure}('BaseController')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(16): spl_autoload_call('BaseController')
+#3 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(583): include_once('C:\\wamp64\\www\\s...')
+#4 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/home/square_te...')
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/home/square_te...')
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-11 03:25:09 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: CodeIgniter\Router\Router->{closure}('BaseController')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(16): spl_autoload_call('BaseController')
+#3 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(583): include_once('C:\\wamp64\\www\\s...')
+#4 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/home/square_te...')
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/home/square_te...')
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-11 03:27:09 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: CodeIgniter\Router\Router->{closure}('BaseController')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(16): spl_autoload_call('BaseController')
+#3 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(583): include_once('C:\\wamp64\\www\\s...')
+#4 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/home/square_te...')
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/home/square_te...')
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-11 03:27:10 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: CodeIgniter\Router\Router->{closure}('BaseController')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(16): spl_autoload_call('BaseController')
+#3 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(583): include_once('C:\\wamp64\\www\\s...')
+#4 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/home/square_te...')
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/home/square_te...')
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-11 03:27:10 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: CodeIgniter\Router\Router->{closure}('BaseController')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(16): spl_autoload_call('BaseController')
+#3 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(583): include_once('C:\\wamp64\\www\\s...')
+#4 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/home/square_te...')
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/home/square_te...')
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-11 03:27:10 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: CodeIgniter\Router\Router->{closure}('BaseController')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(16): spl_autoload_call('BaseController')
+#3 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(583): include_once('C:\\wamp64\\www\\s...')
+#4 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/home/square_te...')
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/home/square_te...')
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-11 03:27:11 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: CodeIgniter\Router\Router->{closure}('BaseController')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(16): spl_autoload_call('BaseController')
+#3 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(583): include_once('C:\\wamp64\\www\\s...')
+#4 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/home/square_te...')
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/home/square_te...')
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-11 03:27:11 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: CodeIgniter\Router\Router->{closure}('BaseController')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(16): spl_autoload_call('BaseController')
+#3 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(583): include_once('C:\\wamp64\\www\\s...')
+#4 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/home/square_te...')
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/home/square_te...')
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-11 03:27:36 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: CodeIgniter\Router\Router->{closure}('BaseController')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(16): spl_autoload_call('BaseController')
+#3 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(583): include_once('C:\\wamp64\\www\\s...')
+#4 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/home/square_te...')
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/home/square_te...')
+#6 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-11 03:27:45 --> Class 'Square\SquareClient' not found
+#0 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-11 03:27:58 --> Class 'Square\SquareClient' not found
+#0 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-11 03:28:20 --> Class 'Square\SquareClient' not found
+#0 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-11 03:28:21 --> Class 'Square\SquareClient' not found
+#0 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-11 03:28:21 --> Class 'Square\SquareClient' not found
+#0 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-11 03:28:41 --> Class 'Square\SquareClient' not found
+#0 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-11 03:28:50 --> SSL certificate problem: unable to get local issuer certificate
+#0 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(222): Square\Apis\CustomersApi->createCustomer(Object(Square\Models\CreateCustomerRequest))
+#1 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 03:29:59 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: App\Controllers\Home->{closure}('App\\Controllers...')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(222): spl_autoload_call('App\\Controllers...')
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 03:32:01 --> Class 'App\Controllers\SquareConnect\Configuration' not found
+#0 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(583): include_once()
+#1 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/home/square_te...')
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/home/square_te...')
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-11 03:33:44 --> Class 'App\Controllers\SquareConnect\Configuration' not found
+#0 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(583): include_once()
+#1 C:\wamp64\www\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/home/square_te...')
+#2 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/home/square_te...')
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-11 03:34:44 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: App\Controllers\Home->{closure}('App\\Controllers...')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(223): spl_autoload_call('App\\Controllers...')
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 03:37:27 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: App\Controllers\Home->{closure}('App\\Controllers...')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(223): spl_autoload_call('App\\Controllers...')
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 03:37:28 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: App\Controllers\Home->{closure}('App\\Controllers...')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(223): spl_autoload_call('App\\Controllers...')
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 03:37:28 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: App\Controllers\Home->{closure}('App\\Controllers...')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(223): spl_autoload_call('App\\Controllers...')
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 03:37:45 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: App\Controllers\Home->{closure}('App\\Controllers...')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(223): spl_autoload_call('App\\Controllers...')
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 03:37:46 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: App\Controllers\Home->{closure}('App\\Controllers...')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(223): spl_autoload_call('App\\Controllers...')
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 03:38:01 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: App\Controllers\Home->{closure}('App\\Controllers...')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(223): spl_autoload_call('App\\Controllers...')
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 03:38:18 --> Undefined variable: matchingPrefix
+#0 C:\wamp64\www\sunstone\frontend\app\ThirdParty\square_autoload.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 [internal function]: App\Controllers\Home->{closure}('App\\Controllers...')
+#2 C:\wamp64\www\sunstone\frontend\app\Controllers\Home.php(223): spl_autoload_call('App\\Controllers...')
+#3 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->square_test()
+#4 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 04:14:28 --> main(): Failed opening required 'C:\wamp64\www\sunstone\frontend\app\ThirdParty\Square\SquareClient.php' (include_path='.;C:\php\pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

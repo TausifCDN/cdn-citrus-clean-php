@@ -1,0 +1,60 @@
+CRITICAL - 2021-03-26 03:08:19 --> Table 'cdncc.slider' doesn't exist
+#0 C:\wamp64\www\cdnccc\frontend\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT * FROM s...')
+#1 C:\wamp64\www\cdnccc\frontend\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 C:\wamp64\www\cdnccc\frontend\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 C:\wamp64\www\cdnccc\frontend\app\Controllers\Home.php(16): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Home->index()
+#5 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 06:11:36 --> Undefined variable: curr
+#0 C:\wamp64\www\cdnccc\frontend\app\Views\products.php(209): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 209, Array)
+#1 C:\wamp64\www\cdnccc\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\cdnccc\frontend\system\Common.php(1119): CodeIgniter\View\View->render('products', Array, true)
+#3 C:\wamp64\www\cdnccc\frontend\app\Controllers\Products.php(23): view('products', Array)
+#4 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Products->index()
+#5 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 08:02:46 --> Undefined variable: curr
+#0 C:\wamp64\www\cdnccc\frontend\app\Views\products.php(209): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 209, Array)
+#1 C:\wamp64\www\cdnccc\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\cdnccc\frontend\system\Common.php(1119): CodeIgniter\View\View->render('products', Array, true)
+#3 C:\wamp64\www\cdnccc\frontend\app\Controllers\Products.php(23): view('products', Array)
+#4 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Products->index()
+#5 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 08:07:20 --> Undefined variable: curr
+#0 C:\wamp64\www\cdnccc\frontend\app\Views\products.php(209): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 209, Array)
+#1 C:\wamp64\www\cdnccc\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\cdnccc\frontend\system\Common.php(1119): CodeIgniter\View\View->render('products', Array, true)
+#3 C:\wamp64\www\cdnccc\frontend\app\Controllers\Products.php(23): view('products', Array)
+#4 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Products->index()
+#5 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 08:15:32 --> Undefined variable: curr
+#0 C:\wamp64\www\cdnccc\frontend\app\Views\products.php(209): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 209, Array)
+#1 C:\wamp64\www\cdnccc\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\cdnccc\frontend\system\Common.php(1119): CodeIgniter\View\View->render('products', Array, true)
+#3 C:\wamp64\www\cdnccc\frontend\app\Controllers\Products.php(23): view('products', Array)
+#4 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Products->index()
+#5 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-26 08:16:08 --> Undefined variable: curr
+#0 C:\wamp64\www\cdnccc\frontend\app\Views\products.php(209): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 209, Array)
+#1 C:\wamp64\www\cdnccc\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\cdnccc\frontend\system\Common.php(1119): CodeIgniter\View\View->render('products', Array, true)
+#3 C:\wamp64\www\cdnccc\frontend\app\Controllers\Products.php(23): view('products', Array)
+#4 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Products->index()
+#5 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}

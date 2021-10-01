@@ -1,0 +1,111 @@
+CRITICAL - 2021-03-06 04:38:19 --> Undefined variable: auto_suggestion
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Views\home.php(500): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 500, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\View\View.php(246): include('F:\\wamp\\www\\fre...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('home', Array, true)
+#3 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Home.php(50): view('home', Array)
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->index()
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-06 06:01:56 --> Undefined variable: session_id
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Payment.php(194): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 194, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Payment->checkout_final()
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-06 06:02:16 --> Call to undefined method CodeIgniter\Session\Session::session_id()
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Payment->checkout_final()
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-06 06:02:22 --> Call to undefined function App\Controllers\get_package_was_price()
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Payment->checkout_final()
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-06 06:02:34 --> Table 'sunstone.sales_master' doesn't exist
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `sa...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Payment.php(236): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Payment->checkout_final()
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#7 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-06 06:02:45 --> Unknown column 'discount_amount' in 'field list'
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `sa...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Payment.php(236): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Payment->checkout_final()
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#7 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-06 06:03:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::inserted_id()
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Payment->checkout_final()
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-06 06:04:37 --> Unknown column 'user_id' in 'field list'
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `sa...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Payment.php(253): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Payment->checkout_final()
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#7 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-06 06:10:07 --> Undefined index: addon_qty
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Payment.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'F:\\wamp\\www\\fre...', 261, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Payment->checkout_final()
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-06 06:10:24 --> Undefined variable: addon_qty
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Payment.php(267): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 267, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Payment->checkout_final()
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-06 06:10:37 --> Table 'sunstone.sales_trans_addons' doesn't exist
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `sa...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Payment.php(270): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Payment->checkout_final()
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#7 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-06 06:29:10 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Payment.php(276): CodeIgniter\Database\BaseBuilder->delete()
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Payment->checkout_final()
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-06 06:29:26 --> Unknown column 'sesion_id' in 'where clause'
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `sa...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `sa...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `sa...')
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `sa...', Array, false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Payment.php(276): CodeIgniter\Database\BaseBuilder->delete()
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Payment->checkout_final()
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#7 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}

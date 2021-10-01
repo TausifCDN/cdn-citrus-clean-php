@@ -1,0 +1,43 @@
+CRITICAL - 2021-01-09 06:19:37 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::basename()
+#0 /var/www/html/image_gallery_2/system/CodeIgniter.php(924): App\Controllers\Upload_image->upload_multiple_images()
+#1 /var/www/html/image_gallery_2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/image_gallery_2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/image_gallery_2/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-09 06:24:10 --> Call to a member function getRandomName() on null
+#0 /var/www/html/image_gallery_2/system/CodeIgniter.php(924): App\Controllers\Upload_image->upload_multiple_images()
+#1 /var/www/html/image_gallery_2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/image_gallery_2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/image_gallery_2/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-09 06:25:03 --> Call to a member function getRandomName() on null
+#0 /var/www/html/image_gallery_2/system/CodeIgniter.php(924): App\Controllers\Upload_image->upload_multiple_images()
+#1 /var/www/html/image_gallery_2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/image_gallery_2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/image_gallery_2/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-09 06:25:22 --> Call to a member function getRandomName() on null
+#0 /var/www/html/image_gallery_2/system/CodeIgniter.php(924): App\Controllers\Upload_image->upload_multiple_images()
+#1 /var/www/html/image_gallery_2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/image_gallery_2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/image_gallery_2/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-09 06:38:24 --> Undefined variable: cat_id
+#0 /var/www/html/image_gallery_2/app/Controllers/Upload_image.php(93): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/image_gallery_2/system/CodeIgniter.php(924): App\Controllers\Upload_image->upload_multiple_images()
+#2 /var/www/html/image_gallery_2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/image_gallery_2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/image_gallery_2/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-09 06:42:35 --> Call to undefined function App\Controllers\getRandomName()
+#0 /var/www/html/image_gallery_2/system/CodeIgniter.php(924): App\Controllers\Upload_image->upload_multiple_images()
+#1 /var/www/html/image_gallery_2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/image_gallery_2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/image_gallery_2/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-09 06:42:35 --> Call to undefined function App\Controllers\getRandomName()
+#0 /var/www/html/image_gallery_2/system/CodeIgniter.php(924): App\Controllers\Upload_image->upload_multiple_images()
+#1 /var/www/html/image_gallery_2/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/image_gallery_2/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/image_gallery_2/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}

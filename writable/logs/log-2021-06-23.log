@@ -1,0 +1,18 @@
+CRITICAL - 2021-06-23 13:01:07 --> Invalid file: termsConditions.php
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('termsConditions...')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(1119): CodeIgniter\View\View->render('termsConditions', Array, true)
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Home.php(128): view('termsConditions')
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Home->termsConditions()
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-23 13:01:45 --> Invalid file: termsConditions.php
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('termsConditions...')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(1119): CodeIgniter\View\View->render('termsConditions', Array, true)
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Home.php(128): view('termsConditions')
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Home->termsConditions()
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}

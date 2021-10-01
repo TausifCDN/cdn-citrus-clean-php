@@ -1,0 +1,122 @@
+CRITICAL - 2021-06-09 03:37:17 --> Access to undeclared static property: Square\Environment::$environment
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Payments->createPayment()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-09 05:21:48 --> Access to undeclared static property: Square\Environment::$environment
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Payments->createPayment()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-09 05:24:45 --> Access to undeclared static property: Square\Environment::$environment
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Payments->createPayment()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-09 05:36:09 --> Access to undeclared static property: Square\Environment::$environment
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Payments->createPayment()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-09 05:44:19 --> Access to undeclared static property: Square\Environment::$environment
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Payments->createPayment()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-09 05:44:59 --> Access to undeclared static property: Square\Environment::$environment
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Payments->createPayment()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-09 05:46:41 --> Access to undeclared static property: Square\Environment::$environment
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Payments->createPayment()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-09 05:47:19 --> Access to undeclared static property: Square\Environment::$environment
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Payments->createPayment()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-09 05:47:46 --> Access to undeclared static property: Square\Environment::$environment
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Payments->createPayment()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-09 05:50:01 --> Access to undeclared static property: Square\Environment::$environment
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Payments->createPayment()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-09 05:52:34 --> Access to undeclared static property: Square\Environment::$environment
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Payments->createPayment()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-09 05:53:01 --> Access to undeclared static property: Square\Environment::$environment
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Payments->createPayment()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-09 05:53:40 --> Access to undeclared static property: Square\Environment::$environment
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Payments->createPayment()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-09 13:00:04 --> Use of undefined constant base_url - assumed 'base_url' (this will throw an Error in a future version of PHP)
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Views/__partial/__footer.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/vntcbq34d...', 159, Array)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Views/cart.php(40): include('/home/vntcbq34d...')
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/View/View.php(246): include('/home/vntcbq34d...')
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(1119): CodeIgniter\View\View->render('cart', Array, true)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Home.php(33): view('cart', Array)
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Home->cart()
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 13:00:07 --> Use of undefined constant base_url - assumed 'base_url' (this will throw an Error in a future version of PHP)
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Views/__partial/__footer.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/vntcbq34d...', 159, Array)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Views/about.php(63): include('/home/vntcbq34d...')
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/View/View.php(246): include('/home/vntcbq34d...')
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(1119): CodeIgniter\View\View->render('about', Array, true)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/About.php(13): view('about')
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\About->index()
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+#7 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 13:00:09 --> Use of undefined constant base_url - assumed 'base_url' (this will throw an Error in a future version of PHP)
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Views/__partial/__footer.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/vntcbq34d...', 159, Array)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Views/home.php(189): include('/home/vntcbq34d...')
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/View/View.php(246): include('/home/vntcbq34d...')
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(1119): CodeIgniter\View\View->render('home', Array, true)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Home.php(28): view('home', Array)
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Home->index()
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-09 13:00:12 --> Use of undefined constant base_url - assumed 'base_url' (this will throw an Error in a future version of PHP)
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Views/__partial/__footer.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/vntcbq34d...', 159, Array)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Views/home.php(189): include('/home/vntcbq34d...')
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/View/View.php(246): include('/home/vntcbq34d...')
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(1119): CodeIgniter\View\View->render('home', Array, true)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Home.php(28): view('home', Array)
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Home->index()
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}

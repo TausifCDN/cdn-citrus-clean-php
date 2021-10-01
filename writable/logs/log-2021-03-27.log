@@ -1,0 +1,246 @@
+CRITICAL - 2021-03-27 00:07:39 --> Unknown column 'package_id' in 'where clause'
+#0 C:\wamp64\www\cdnccc\frontend\system\Database\MySQLi\Connection.php(331): mysqli->query('DELETE FROM `sa...')
+#1 C:\wamp64\www\cdnccc\frontend\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `sa...')
+#2 C:\wamp64\www\cdnccc\frontend\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `sa...')
+#3 C:\wamp64\www\cdnccc\frontend\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `sa...', Array, false)
+#4 C:\wamp64\www\cdnccc\frontend\app\Controllers\Payments.php(36): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Payments->add_cart()
+#6 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#7 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-27 00:08:31 --> Undefined variable: addon_id
+#0 C:\wamp64\www\cdnccc\frontend\app\Controllers\Payments.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 28, Array)
+#1 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Payments->add_cart()
+#2 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#3 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-27 00:18:35 --> Undefined index: quantity_0
+#0 C:\wamp64\www\cdnccc\frontend\app\Controllers\Payments.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\c...', 29, Array)
+#1 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Payments->add_cart()
+#2 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#3 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-27 03:18:44 --> Undefined variable: db
+#0 C:\wamp64\www\cdnccc\frontend\app\Controllers\Payments.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 66, Array)
+#1 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Payments->checkout()
+#2 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#3 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-27 03:19:27 --> Undefined variable: db
+#0 C:\wamp64\www\cdnccc\frontend\app\Controllers\Payments.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 66, Array)
+#1 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Payments->checkout()
+#2 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#3 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-27 03:20:21 --> Unknown column 'products.wasprice' in 'field list'
+#0 C:\wamp64\www\cdnccc\frontend\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT products...')
+#1 C:\wamp64\www\cdnccc\frontend\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT products...')
+#2 C:\wamp64\www\cdnccc\frontend\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT products...')
+#3 C:\wamp64\www\cdnccc\frontend\app\Controllers\Payments.php(70): CodeIgniter\Database\BaseConnection->query('SELECT products...')
+#4 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Payments->checkout()
+#5 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#6 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-27 03:20:35 --> Undefined variable: products
+#0 C:\wamp64\www\cdnccc\frontend\app\Views\checkout.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 21, Array)
+#1 C:\wamp64\www\cdnccc\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\cdnccc\frontend\system\Common.php(1119): CodeIgniter\View\View->render('checkout', Array, true)
+#3 C:\wamp64\www\cdnccc\frontend\app\Controllers\Payments.php(73): view('checkout', Array)
+#4 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Payments->checkout()
+#5 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#6 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-27 03:20:55 --> Undefined index: on_qty_discount
+#0 C:\wamp64\www\cdnccc\frontend\app\Views\checkout.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\c...', 51, Array)
+#1 C:\wamp64\www\cdnccc\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\cdnccc\frontend\system\Common.php(1119): CodeIgniter\View\View->render('checkout', Array, true)
+#3 C:\wamp64\www\cdnccc\frontend\app\Controllers\Payments.php(73): view('checkout', Array)
+#4 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Payments->checkout()
+#5 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#6 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-27 03:22:18 --> Undefined index: on_qty_discount
+#0 C:\wamp64\www\cdnccc\frontend\app\Views\checkout.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\c...', 51, Array)
+#1 C:\wamp64\www\cdnccc\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\cdnccc\frontend\system\Common.php(1119): CodeIgniter\View\View->render('checkout', Array, true)
+#3 C:\wamp64\www\cdnccc\frontend\app\Controllers\Payments.php(73): view('checkout', Array)
+#4 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Payments->checkout()
+#5 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#6 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-27 03:22:38 --> Undefined variable: eligible_categories
+#0 C:\wamp64\www\cdnccc\frontend\app\Views\checkout.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 86, Array)
+#1 C:\wamp64\www\cdnccc\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\cdnccc\frontend\system\Common.php(1119): CodeIgniter\View\View->render('checkout', Array, true)
+#3 C:\wamp64\www\cdnccc\frontend\app\Controllers\Payments.php(73): view('checkout', Array)
+#4 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Payments->checkout()
+#5 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#6 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-27 03:26:36 --> Unknown column 'products.product_id' in 'where clause'
+#0 C:\wamp64\www\cdnccc\frontend\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT products...')
+#1 C:\wamp64\www\cdnccc\frontend\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT products...')
+#2 C:\wamp64\www\cdnccc\frontend\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT products...')
+#3 C:\wamp64\www\cdnccc\frontend\app\Controllers\Payments.php(70): CodeIgniter\Database\BaseConnection->query('SELECT products...')
+#4 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Payments->checkout()
+#5 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#6 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-27 05:31:31 --> Undefined index: quantity_1
+#0 C:\wamp64\www\cdnccc\frontend\app\Controllers\Payments.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\c...', 28, Array)
+#1 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Payments->add_cart()
+#2 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#3 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-27 05:41:47 --> Undefined index: quantity_0
+#0 C:\wamp64\www\cdnccc\frontend\app\Controllers\Payments.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\c...', 28, Array)
+#1 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Payments->add_cart()
+#2 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#3 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-27 05:41:57 --> Undefined index: quantity_1
+#0 C:\wamp64\www\cdnccc\frontend\app\Controllers\Payments.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\c...', 28, Array)
+#1 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Payments->add_cart()
+#2 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#3 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-27 05:58:24 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-27 05:58:55 --> Undefined variable: main_category
+#0 C:\wamp64\www\cdnccc\frontend\app\Views\products.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 28, Array)
+#1 C:\wamp64\www\cdnccc\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\cdnccc\frontend\system\Common.php(1119): CodeIgniter\View\View->render('products', Array, true)
+#3 C:\wamp64\www\cdnccc\frontend\app\Controllers\Products.php(36): view('products', Array)
+#4 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Products->index()
+#5 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-27 06:00:02 --> Undefined variable: session
+#0 C:\wamp64\www\cdnccc\frontend\app\Controllers\Products.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 14, Array)
+#1 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Products->index()
+#2 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-27 06:00:48 --> Unknown column 'category_master.category_name' in 'field list'
+#0 C:\wamp64\www\cdnccc\frontend\system\Database\MySQLi\Connection.php(331): mysqli->query('select category...')
+#1 C:\wamp64\www\cdnccc\frontend\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('select category...')
+#2 C:\wamp64\www\cdnccc\frontend\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select category...')
+#3 C:\wamp64\www\cdnccc\frontend\app\Controllers\Products.php(17): CodeIgniter\Database\BaseConnection->query('select category...')
+#4 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Products->index()
+#5 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-27 06:01:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'session_id='2jhr647s26hgial69ejo4vfo1vk93mpm'' at line 1
+#0 C:\wamp64\www\cdnccc\frontend\system\Database\MySQLi\Connection.php(331): mysqli->query('select category...')
+#1 C:\wamp64\www\cdnccc\frontend\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('select category...')
+#2 C:\wamp64\www\cdnccc\frontend\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('select category...')
+#3 C:\wamp64\www\cdnccc\frontend\app\Controllers\Products.php(17): CodeIgniter\Database\BaseConnection->query('select category...')
+#4 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Products->index()
+#5 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-27 07:43:05 --> Undefined index: discount_25
+#0 C:\wamp64\www\cdnccc\frontend\app\Controllers\Payments.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\c...', 22, Array)
+#1 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Payments->add_cart()
+#2 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#3 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-27 07:58:12 --> syntax error, unexpected ')'
+#0 C:\wamp64\www\cdnccc\frontend\system\Common.php(1119): CodeIgniter\View\View->render('checkout', Array, true)
+#1 C:\wamp64\www\cdnccc\frontend\app\Controllers\Payments.php(84): view('checkout', Array)
+#2 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Payments->checkout()
+#3 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#4 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-27 08:01:23 --> Undefined variable: discount
+#0 C:\wamp64\www\cdnccc\frontend\app\Views\checkout.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 26, Array)
+#1 C:\wamp64\www\cdnccc\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\cdnccc\frontend\system\Common.php(1119): CodeIgniter\View\View->render('checkout', Array, true)
+#3 C:\wamp64\www\cdnccc\frontend\app\Controllers\Payments.php(84): view('checkout', Array)
+#4 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Payments->checkout()
+#5 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#6 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-27 08:32:35 --> Undefined variable: was_price
+#0 C:\wamp64\www\cdnccc\frontend\app\Views\products.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 82, Array)
+#1 C:\wamp64\www\cdnccc\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\cdnccc\frontend\system\Common.php(1119): CodeIgniter\View\View->render('products', Array, true)
+#3 C:\wamp64\www\cdnccc\frontend\app\Controllers\Products.php(35): view('products', Array)
+#4 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Products->index()
+#5 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-27 08:57:23 --> Undefined variable: data
+#0 C:\wamp64\www\cdnccc\frontend\app\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 14, Array)
+#1 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Home->index()
+#2 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-27 08:59:22 --> Undefined index: product_image
+#0 C:\wamp64\www\cdnccc\frontend\app\Views\__partial\__header.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\c...', 67, Array)
+#1 C:\wamp64\www\cdnccc\frontend\app\Views\home.php(1): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\cdnccc\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#3 C:\wamp64\www\cdnccc\frontend\system\Common.php(1119): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\wamp64\www\cdnccc\frontend\app\Controllers\Home.php(25): view('home', Array)
+#5 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Home->index()
+#6 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-27 08:59:55 --> Undefined index: product_image
+#0 C:\wamp64\www\cdnccc\frontend\app\Views\__partial\__header.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\c...', 67, Array)
+#1 C:\wamp64\www\cdnccc\frontend\app\Views\home.php(1): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\cdnccc\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#3 C:\wamp64\www\cdnccc\frontend\system\Common.php(1119): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\wamp64\www\cdnccc\frontend\app\Controllers\Home.php(25): view('home', Array)
+#5 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Home->index()
+#6 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-27 08:59:57 --> Undefined index: product_image
+#0 C:\wamp64\www\cdnccc\frontend\app\Views\__partial\__header.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\c...', 67, Array)
+#1 C:\wamp64\www\cdnccc\frontend\app\Views\home.php(1): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\cdnccc\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#3 C:\wamp64\www\cdnccc\frontend\system\Common.php(1119): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\wamp64\www\cdnccc\frontend\app\Controllers\Home.php(25): view('home', Array)
+#5 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Home->index()
+#6 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-27 09:02:30 --> Undefined index: product_image
+#0 C:\wamp64\www\cdnccc\frontend\app\Views\__partial\__header.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\c...', 66, Array)
+#1 C:\wamp64\www\cdnccc\frontend\app\Views\home.php(1): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\cdnccc\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\c...')
+#3 C:\wamp64\www\cdnccc\frontend\system\Common.php(1119): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\wamp64\www\cdnccc\frontend\app\Controllers\Home.php(25): view('home', Array)
+#5 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Home->index()
+#6 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}

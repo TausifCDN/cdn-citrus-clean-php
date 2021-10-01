@@ -1,0 +1,41 @@
+CRITICAL - 2021-03-30 00:54:05 --> Undefined index: email
+#0 C:\wamp64\www\cdnccc\frontend\app\Controllers\User.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\c...', 66, Array)
+#1 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\User->signup()
+#2 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-30 05:08:09 --> Undefined variable: db
+#0 C:\wamp64\www\cdnccc\frontend\app\Controllers\Ajax.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 35, Array)
+#1 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Ajax->product_detail()
+#2 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-30 05:08:31 --> Undefined variable: db
+#0 C:\wamp64\www\cdnccc\frontend\app\Controllers\Ajax.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 35, Array)
+#1 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Ajax->product_detail()
+#2 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-30 06:37:13 --> Unknown column 'undefined' in 'where clause'
+#0 C:\wamp64\www\cdnccc\frontend\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT products...')
+#1 C:\wamp64\www\cdnccc\frontend\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT products...')
+#2 C:\wamp64\www\cdnccc\frontend\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT products...')
+#3 C:\wamp64\www\cdnccc\frontend\app\Controllers\Ajax.php(17): CodeIgniter\Database\BaseConnection->query('SELECT products...')
+#4 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Ajax->qty_change()
+#5 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#6 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-30 06:37:16 --> Unknown column 'undefined' in 'where clause'
+#0 C:\wamp64\www\cdnccc\frontend\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT products...')
+#1 C:\wamp64\www\cdnccc\frontend\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT products...')
+#2 C:\wamp64\www\cdnccc\frontend\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT products...')
+#3 C:\wamp64\www\cdnccc\frontend\app\Controllers\Ajax.php(17): CodeIgniter\Database\BaseConnection->query('SELECT products...')
+#4 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(924): App\Controllers\Ajax->qty_change()
+#5 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#6 C:\wamp64\www\cdnccc\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\cdnccc\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}

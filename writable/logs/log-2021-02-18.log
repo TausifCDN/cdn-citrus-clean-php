@@ -1,0 +1,348 @@
+CRITICAL - 2021-02-18 00:21:59 --> Division by zero
+#0 /var/www/html/sunstone/app/Views/home.php(126): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Home.php(37): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Home->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-18 00:22:53 --> Division by zero
+#0 /var/www/html/sunstone/app/Views/addons.php(549): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Addons.php(61): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Addons->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-18 06:20:19 --> syntax error, unexpected '}', expecting end of file
+#0 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#1 /var/www/html/sunstone/app/Controllers/Home.php(37): view()
+#2 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Home->index()
+#3 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-18 06:53:23 --> Unknown column 'category' in 'field list'
+#0 /var/www/html/sunstone/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/html/sunstone/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/sunstone/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/sunstone/app/Controllers/Addons.php(25): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Addons->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-18 06:54:05 --> Undefined variable: packages
+#0 /var/www/html/sunstone/app/Views/addons.php(519): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Addons.php(38): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Addons->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-18 06:54:06 --> Undefined variable: packages
+#0 /var/www/html/sunstone/app/Views/addons.php(519): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Addons.php(38): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Addons->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-18 06:54:13 --> Invalid argument supplied for foreach()
+#0 /var/www/html/sunstone/app/Views/addons.php(519): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Addons.php(38): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Addons->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-18 07:17:37 --> syntax error, unexpected ';'
+#0 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#1 /var/www/html/sunstone/app/Controllers/Services.php(50): view()
+#2 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Services->index()
+#3 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-18 07:17:50 --> syntax error, unexpected ';'
+#0 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#1 /var/www/html/sunstone/app/Controllers/Services.php(50): view()
+#2 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Services->index()
+#3 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-18 07:18:29 --> syntax error, unexpected ';'
+#0 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#1 /var/www/html/sunstone/app/Controllers/Services.php(50): view()
+#2 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Services->index()
+#3 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-18 07:18:46 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#1 /var/www/html/sunstone/app/Controllers/Services.php(50): view()
+#2 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Services->index()
+#3 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-18 07:18:57 --> syntax error, unexpected ';'
+#0 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#1 /var/www/html/sunstone/app/Controllers/Services.php(50): view()
+#2 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Services->index()
+#3 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-18 07:20:07 --> syntax error, unexpected '?>'
+#0 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#1 /var/www/html/sunstone/app/Controllers/Services.php(50): view()
+#2 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Services->index()
+#3 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-18 07:22:01 --> syntax error, unexpected ';'
+#0 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#1 /var/www/html/sunstone/app/Controllers/Services.php(50): view()
+#2 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Services->index()
+#3 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-18 07:22:11 --> syntax error, unexpected ';'
+#0 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#1 /var/www/html/sunstone/app/Controllers/Services.php(50): view()
+#2 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Services->index()
+#3 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-18 07:26:51 --> Call to undefined function get_cart_qty()
+#0 /var/www/html/sunstone/app/Views/addons.php(93): include()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Packages.php(38): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Packages->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-18 07:38:34 --> Undefined index: points
+#0 /var/www/html/sunstone/app/Views/addons.php(558): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Packages.php(39): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Packages->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-18 07:39:12 --> syntax error, unexpected '}', expecting end of file
+#0 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#1 /var/www/html/sunstone/app/Controllers/Packages.php(39): view()
+#2 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Packages->index()
+#3 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-18 07:43:01 --> Undefined variable: service
+#0 /var/www/html/sunstone/app/Views/addons.php(100): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Packages.php(42): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Packages->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-18 07:44:48 --> Illegal string offset 'package_heading'
+#0 /var/www/html/sunstone/app/Views/addons.php(529): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Packages.php(43): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Packages->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-18 07:45:14 --> Undefined index: package_heading
+#0 /var/www/html/sunstone/app/Views/addons.php(529): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Packages.php(43): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Packages->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-18 07:46:27 --> Undefined index: package_heading
+#0 /var/www/html/sunstone/app/Views/addons.php(206): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Packages.php(43): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Packages->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-18 07:48:02 --> syntax error, unexpected '}', expecting end of file
+#0 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#1 /var/www/html/sunstone/app/Controllers/Packages.php(43): view()
+#2 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Packages->index()
+#3 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-18 07:53:46 --> Undefined index: image
+#0 /var/www/html/sunstone/app/Views/addons.php(261): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Packages.php(43): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Packages->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-18 08:08:24 --> Undefined index: id
+#0 /var/www/html/sunstone/app/Views/addons.php(299): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Packages.php(43): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Packages->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-18 08:08:38 --> Undefined index: id
+#0 /var/www/html/sunstone/app/Views/addons.php(299): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Packages.php(43): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Packages->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-18 08:22:37 --> Undefined variable: packages_list
+#0 /var/www/html/sunstone/app/Views/addons.php(542): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Packages.php(55): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Packages->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-18 08:22:56 --> Undefined variable: packages_list
+#0 /var/www/html/sunstone/app/Views/addons.php(542): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Packages.php(55): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Packages->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-18 08:23:12 --> Undefined variable: packages_list
+#0 /var/www/html/sunstone/app/Views/addons.php(542): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Packages.php(55): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Packages->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-18 08:36:28 --> Undefined variable: service
+#0 /var/www/html/sunstone/app/Views/addons.php(100): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Addons.php(38): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Addons->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-18 08:36:49 --> Undefined variable: service
+#0 /var/www/html/sunstone/app/Views/addons.php(100): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Addons.php(38): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Addons->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-18 08:37:10 --> Undefined variable: service
+#0 /var/www/html/sunstone/app/Views/addons.php(100): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Addons.php(38): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Addons->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-18 08:37:18 --> Undefined variable: service
+#0 /var/www/html/sunstone/app/Views/addons.php(100): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Addons.php(38): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Addons->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-18 08:37:21 --> Trying to access array offset on value of type null
+#0 /var/www/html/sunstone/app/Views/addons.php(100): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Packages.php(56): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Packages->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-18 08:39:23 --> Undefined variable: service
+#0 /var/www/html/sunstone/app/Views/addons.php(100): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Addons.php(38): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Addons->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-18 08:40:55 --> Trying to access array offset on value of type null
+#0 /var/www/html/sunstone/app/Views/addons.php(100): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Packages.php(56): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Packages->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-18 08:42:05 --> Undefined variable: service
+#0 /var/www/html/sunstone/app/Views/addons.php(100): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Addons.php(38): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Addons->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}

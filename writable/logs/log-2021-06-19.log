@@ -1,0 +1,66 @@
+CRITICAL - 2021-06-19 07:31:20 --> Invalid argument supplied for foreach()
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Views/admin/categories.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/vntcbq34d...', 44, Array)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/View/View.php(246): include('/home/vntcbq34d...')
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(1119): CodeIgniter\View\View->render('admin/categorie...', Array, true)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(56): view('admin/categorie...')
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->category()
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-19 07:43:30 --> Invalid argument supplied for foreach()
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Views/admin/categories.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/vntcbq34d...', 25, Array)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/View/View.php(246): include('/home/vntcbq34d...')
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(1119): CodeIgniter\View\View->render('admin/categorie...', Array, true)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(56): view('admin/categorie...')
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->category()
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-19 12:19:41 --> Call to a member function segment() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->category_delete('20')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-19 12:27:03 --> Call to undefined function App\Controllers\getSegment()
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->category_delete('20')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-19 14:22:19 --> Call to a member function getGet() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->editCategory()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-19 14:22:52 --> Call to a member function getGet() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->editCategory()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-19 14:23:14 --> Call to a member function getGet() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->editCategory()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-19 14:24:17 --> Call to a member function getGet() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->editCategory()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-19 15:38:45 --> Invalid argument supplied for foreach()
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Views/contact.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/vntcbq34d...', 75, Array)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/View/View.php(246): include('/home/vntcbq34d...')
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(1119): CodeIgniter\View\View->render('contact', Array, true)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Contacts.php(9): view('contact')
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Contacts->index()
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacts))
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}

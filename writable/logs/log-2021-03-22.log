@@ -1,0 +1,10 @@
+CRITICAL - 2021-03-22 05:42:52 --> Undefined variable: session
+#0 C:\wamp64\www\kelly\frontend\app\Views\payment.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\k...', 26, Array)
+#1 C:\wamp64\www\kelly\frontend\system\View\View.php(246): include('C:\\wamp64\\www\\k...')
+#2 C:\wamp64\www\kelly\frontend\system\Common.php(1119): CodeIgniter\View\View->render('payment', Array, true)
+#3 C:\wamp64\www\kelly\frontend\app\Controllers\Register.php(78): view('payment', Array)
+#4 C:\wamp64\www\kelly\frontend\system\CodeIgniter.php(924): App\Controllers\Register->submit()
+#5 C:\wamp64\www\kelly\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 C:\wamp64\www\kelly\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\kelly\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}

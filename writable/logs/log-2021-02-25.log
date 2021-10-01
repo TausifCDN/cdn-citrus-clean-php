@@ -1,0 +1,39 @@
+CRITICAL - 2021-02-25 04:32:16 --> Call to undefined function base_ulr()
+#0 /var/www/html/sunstone/system/View/View.php(246): include()
+#1 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /var/www/html/sunstone/app/Controllers/Packages.php(56): view()
+#3 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Packages->index()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-25 05:46:42 --> Undefined variable: service
+#0 /var/www/html/sunstone/app/Views/addons.php(164): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Addons.php(38): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Addons->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-25 09:24:51 --> Undefined variable: services
+#0 /var/www/html/sunstone/app/Views/payment.php(500): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Payment.php(47): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Payment->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-25 23:54:59 --> Undefined variable: service
+#0 /var/www/html/sunstone/app/Views/addons.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/sunstone/system/View/View.php(246): include('/var/www/html/s...')
+#2 /var/www/html/sunstone/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/html/sunstone/app/Controllers/Addons.php(38): view()
+#4 /var/www/html/sunstone/system/CodeIgniter.php(924): App\Controllers\Addons->index()
+#5 /var/www/html/sunstone/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/sunstone/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/sunstone/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}

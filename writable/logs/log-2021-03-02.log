@@ -1,0 +1,181 @@
+CRITICAL - 2021-03-02 06:49:32 --> Undefined variable: service
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Views\addons.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 20, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\View\View.php(246): include('F:\\wamp\\www\\fre...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('addons', Array, true)
+#3 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Addons.php(38): view('addons', Array)
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Addons->index()
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-02 06:50:20 --> Undefined variable: service
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Views\addons.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 20, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\View\View.php(246): include('F:\\wamp\\www\\fre...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('addons', Array, true)
+#3 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Addons.php(38): view('addons', Array)
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Addons->index()
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-02 06:50:21 --> Undefined variable: service
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Views\addons.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 20, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\View\View.php(246): include('F:\\wamp\\www\\fre...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('addons', Array, true)
+#3 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Addons.php(38): view('addons', Array)
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Addons->index()
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-02 06:52:04 --> Undefined variable: service
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Views\addons.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 20, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\View\View.php(246): include('F:\\wamp\\www\\fre...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('addons', Array, true)
+#3 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Addons.php(38): view('addons', Array)
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Addons->index()
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-02 06:52:32 --> Undefined index: points
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Views\addons.php(545): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'F:\\wamp\\www\\fre...', 545, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\View\View.php(246): include('F:\\wamp\\www\\fre...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('addons', Array, true)
+#3 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Packages.php(56): view('addons', Array)
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Packages->index()
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Packages))
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-02 06:53:10 --> Undefined variable: service
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Views\addons.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 20, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\View\View.php(246): include('F:\\wamp\\www\\fre...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('addons', Array, true)
+#3 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Addons.php(38): view('addons', Array)
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Addons->index()
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addons))
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-02 06:57:04 --> Undefined index: points
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Views\addons.php(545): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'F:\\wamp\\www\\fre...', 545, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\View\View.php(246): include('F:\\wamp\\www\\fre...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('addons', Array, true)
+#3 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Packages.php(56): view('addons', Array)
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Packages->index()
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Packages))
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-02 07:52:18 --> syntax error, unexpected '}', expecting end of file
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('services', Array, true)
+#1 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Services.php(53): view('services', Array)
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Services->index()
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-02 07:52:31 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/Services')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/Services')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-02 07:53:00 --> syntax error, unexpected '}', expecting end of file
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('services', Array, true)
+#1 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Services.php(55): view('services', Array)
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Services->index()
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-02 07:53:38 --> Undefined index: image
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Views\services.php(234): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'F:\\wamp\\www\\fre...', 234, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\View\View.php(246): include('F:\\wamp\\www\\fre...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('services', Array, true)
+#3 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Services.php(55): view('services', Array)
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Services->index()
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-02 07:54:13 --> Call to undefined function get_package_was_price()
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\View\View.php(246): include()
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('services', Array, true)
+#2 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Services.php(56): view('services', Array)
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Services->index()
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-02 07:54:40 --> Undefined variable: was_price
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Views\services.php(257): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 257, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\View\View.php(246): include('F:\\wamp\\www\\fre...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('services', Array, true)
+#3 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Services.php(56): view('services', Array)
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Services->index()
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-02 07:54:57 --> Undefined variable: price
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Views\services.php(249): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 249, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\View\View.php(246): include('F:\\wamp\\www\\fre...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('services', Array, true)
+#3 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Services.php(56): view('services', Array)
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Services->index()
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-02 07:55:05 --> Call to undefined function get_currency()
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\View\View.php(246): include()
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('services', Array, true)
+#2 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Services.php(56): view('services', Array)
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Services->index()
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-02 20:27:31 --> Array to string conversion
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Views\services.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'F:\\wamp\\www\\fre...', 282, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\View\View.php(246): include('F:\\wamp\\www\\fre...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('services', Array, true)
+#3 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Services.php(57): view('services', Array)
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Services->index()
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-02 20:30:30 --> Undefined variable: price
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Views\services.php(297): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 297, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\View\View.php(246): include('F:\\wamp\\www\\fre...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('services', Array, true)
+#3 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Services.php(57): view('services', Array)
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Services->index()
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Services))
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-02 20:41:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by id' at line 1
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT * FROM p...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Packages.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Packages->index()
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Packages))
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-02 20:41:31 --> Undefined variable: price
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Views\packages.php(260): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 260, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\View\View.php(246): include('F:\\wamp\\www\\fre...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('packages', Array, true)
+#3 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Packages.php(56): view('packages', Array)
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Packages->index()
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Packages))
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,844 @@
+CRITICAL - 2021-06-16 00:18:50 --> Cannot redeclare Category::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-16 00:18:53 --> Cannot redeclare Category::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-16 00:18:54 --> Cannot redeclare Category::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-16 00:19:05 --> Cannot redeclare Category::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-16 00:19:09 --> Cannot redeclare Category::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-16 00:19:11 --> Cannot redeclare Category::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-16 00:20:00 --> Cannot redeclare Category::addproducts()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-16 00:20:02 --> Cannot redeclare Category::addproducts()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-16 00:20:03 --> Cannot redeclare Category::addproducts()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-16 00:22:42 --> Cannot redeclare Category::addproducts()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-16 00:22:44 --> Cannot redeclare Category::addproducts()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-16 00:23:16 --> Cannot redeclare Category::addproducts()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-16 00:24:42 --> Cannot redeclare Category::addproducts()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-16 00:26:38 --> Cannot redeclare Category::addproducts()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-16 00:26:40 --> Cannot redeclare Category::addproducts()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-16 00:27:41 --> Cannot redeclare Category::addproducts()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-16 00:28:07 --> Cannot redeclare App\Controllers\Category::addproducts()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-16 00:28:09 --> Cannot redeclare App\Controllers\Category::addproducts()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-16 00:29:54 --> Cannot call constructor
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(896): App\Controllers\Category->__construct()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(405): CodeIgniter\CodeIgniter->createController()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 00:29:56 --> Cannot call constructor
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(896): App\Controllers\Category->__construct()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(405): CodeIgniter\CodeIgniter->createController()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 00:30:15 --> Cannot call constructor
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(896): App\Controllers\Category->__construct()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(405): CodeIgniter\CodeIgniter->createController()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 00:45:42 --> Cannot call constructor
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(896): App\Controllers\Admin->__construct()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(405): CodeIgniter\CodeIgniter->createController()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 00:45:44 --> Cannot call constructor
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(896): App\Controllers\Admin->__construct()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(405): CodeIgniter\CodeIgniter->createController()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 00:45:46 --> Cannot call constructor
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(896): App\Controllers\Admin->__construct()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(405): CodeIgniter\CodeIgniter->createController()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 00:46:03 --> Cannot call constructor
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(896): App\Controllers\Admin->__construct()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(405): CodeIgniter\CodeIgniter->createController()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 00:58:25 --> Invalid file: admin.php
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin.php')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(1119): CodeIgniter\View\View->render('admin', Array, true)
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(13): view('admin', Array)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->index()
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-16 00:58:27 --> Invalid file: admin.php
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin.php')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(1119): CodeIgniter\View\View->render('admin', Array, true)
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(13): view('admin', Array)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->index()
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-16 01:01:43 --> Call to a member function view() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->index()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:01:44 --> Call to a member function view() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->index()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:01:45 --> Call to a member function view() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->index()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:03:16 --> Call to a member function view() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->index()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:03:18 --> Call to a member function view() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->index()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:03:27 --> Cannot call constructor
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(896): App\Controllers\Admin->__construct()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(405): CodeIgniter\CodeIgniter->createController()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:03:36 --> Call to a member function view() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->index()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:06:57 --> Call to a member function view() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->index()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:06:59 --> Call to a member function view() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->index()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:13:05 --> Call to a member function post() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->process()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:13:30 --> Call to a member function post() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->process()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:14:25 --> Call to a member function post() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->process()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:14:27 --> Call to a member function post() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->process()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:14:34 --> Call to a member function post() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->process()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:14:59 --> Call to a member function post() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->process()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:18:57 --> Invalid file: admin/login, $data.php
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/login, $d...')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(1119): CodeIgniter\View\View->render('admin/login, $d...', Array, true)
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(14): view('admin/login, $d...')
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->index()
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-16 01:19:00 --> Invalid file: admin/login, $data.php
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/login, $d...')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(1119): CodeIgniter\View\View->render('admin/login, $d...', Array, true)
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(14): view('admin/login, $d...')
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->index()
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-16 01:19:12 --> Invalid file: admin/login, $data.php
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/login, $d...')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(1119): CodeIgniter\View\View->render('admin/login, $d...', Array, true)
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(14): view('admin/login, $d...')
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->index()
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-16 01:20:03 --> Invalid file: admin/login, $data.php
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/login, $d...')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(1119): CodeIgniter\View\View->render('admin/login, $d...', Array, true)
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(14): view('admin/login, $d...')
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->index()
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-16 01:20:05 --> Invalid file: admin/login, $data.php
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/login, $d...')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(1119): CodeIgniter\View\View->render('admin/login, $d...', Array, true)
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(14): view('admin/login, $d...')
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->index()
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-16 01:21:22 --> Invalid file: admin/login, $data.php
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/login, $d...')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(1119): CodeIgniter\View\View->render('admin/login, $d...', Array, true)
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(14): view('admin/login, $d...')
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->index()
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-16 01:21:24 --> Invalid file: admin/login, $data.php
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/login, $d...')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(1119): CodeIgniter\View\View->render('admin/login, $d...', Array, true)
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(14): view('admin/login, $d...')
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->index()
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-16 01:21:41 --> Cannot call constructor
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(896): App\Controllers\Admin->__construct()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(405): CodeIgniter\CodeIgniter->createController()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:22:22 --> Cannot call constructor
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(896): App\Controllers\Admin->__construct()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(405): CodeIgniter\CodeIgniter->createController()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:22:35 --> Cannot call constructor
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(896): App\Controllers\Admin->__construct()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(405): CodeIgniter\CodeIgniter->createController()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:22:51 --> Cannot call constructor
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(896): App\Controllers\Admin->__construct()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(405): CodeIgniter\CodeIgniter->createController()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:22:53 --> Cannot call constructor
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(896): App\Controllers\Admin->__construct()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(405): CodeIgniter\CodeIgniter->createController()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:22:59 --> Cannot call constructor
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(896): App\Controllers\Admin->__construct()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(405): CodeIgniter\CodeIgniter->createController()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:23:08 --> Cannot call constructor
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(896): App\Controllers\Admin->__construct()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(405): CodeIgniter\CodeIgniter->createController()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:23:10 --> Cannot call constructor
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(896): App\Controllers\Admin->__construct()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(405): CodeIgniter\CodeIgniter->createController()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:23:30 --> Invalid file: admin/login, $data.php
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/login, $d...')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(1119): CodeIgniter\View\View->render('admin/login, $d...', Array, true)
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(13): view('admin/login, $d...')
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->index()
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-16 01:24:18 --> Call to a member function view() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->index()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:25:23 --> Call to a member function model() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->process()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:30:38 --> Call to a member function model() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->process()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:31:51 -->  route cannot be found while reverse-routing.
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(19): redirect('Category')
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->process()
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-16 01:31:57 -->  route cannot be found while reverse-routing.
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(19): redirect('Category')
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->process()
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-16 01:32:01 -->  route cannot be found while reverse-routing.
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(19): redirect('Category')
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->process()
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-16 01:32:18 -->  route cannot be found while reverse-routing.
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(19): redirect('Category')
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->process()
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-16 01:32:21 -->  route cannot be found while reverse-routing.
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(19): redirect('Category')
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->process()
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-16 01:33:28 --> Cannot call constructor
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(896): App\Controllers\Category->__construct()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(405): CodeIgniter\CodeIgniter->createController()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:36:25 --> Call to a member function userdata() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->index()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:36:51 --> Call to a member function userdata() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->index()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:36:53 --> Call to a member function userdata() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->index()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:36:54 --> Call to a member function userdata() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->index()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:37:35 --> Call to a member function userdata() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->index()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:37:38 --> Call to a member function userdata() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->index()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:37:42 --> Call to a member function userdata() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->index()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:37:43 --> Call to a member function userdata() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->index()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:38:02 --> Call to a member function getRows() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->index()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:38:19 --> Call to a member function userdata() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->index()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:42:48 --> Call to a member function userdata() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->index()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:47:22 --> Call to a member function getRows() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->index()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:47:24 --> Call to a member function getRows() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->index()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:48:08 --> Undefined property: App\Controllers\Category::$Categorys
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Category.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/vntcbq34d...', 30, Array)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->index()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 01:49:02 --> Cannot call constructor
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(896): App\Controllers\Category->__construct()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(405): CodeIgniter\CodeIgniter->createController()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 01:49:15 --> Undefined property: App\Controllers\Category::$load
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Category.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/vntcbq34d...', 8, Array)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(896): App\Controllers\Category->__construct()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(405): CodeIgniter\CodeIgniter->createController()
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 01:51:17 --> Class 'App\Controllers\CI_Controller' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-16 01:51:35 --> Class 'App\Controllers\Controller' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-16 01:57:52 --> Undefined index: email
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/User.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/vntcbq34d...', 12, Array)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\User->signin()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 01:59:05 --> Call to a member function model() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->process()
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 02:09:01 --> Argument 2 passed to view() must be of the type array, null given, called in /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Category.php on line 26
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Category.php(26): view('admin/category', NULL)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->index()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 02:09:04 --> Argument 2 passed to view() must be of the type array, null given, called in /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Category.php on line 26
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Category.php(26): view('admin/category', NULL)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->index()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 02:16:07 --> Argument 2 passed to view() must be of the type array, null given, called in /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Category.php on line 31
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Category.php(31): view('admin/category', NULL)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->index()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 02:17:46 --> Argument 2 passed to view() must be of the type array, null given, called in /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Category.php on line 31
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Category.php(31): view('admin/category', NULL)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->index()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 02:28:41 --> Argument 2 passed to view() must be of the type array, null given, called in /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Category.php on line 38
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Category.php(38): view('admin/addcatego...', NULL)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->add()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 02:29:04 --> Invalid file: admin/addcategorys.php
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/addcatego...')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(1119): CodeIgniter\View\View->render('admin/addcatego...', Array, true)
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Category.php(38): view('admin/addcatego...')
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->add()
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-16 02:45:55 --> Argument 2 passed to view() must be of the type array, null given, called in /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php on line 48
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(48): view('admin/login', NULL)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->index()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 02:53:27 --> Argument 2 passed to view() must be of the type array, null given, called in /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php on line 57
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(57): view('admin/login', NULL)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->signin()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 02:53:33 --> Argument 2 passed to view() must be of the type array, null given, called in /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php on line 57
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(57): view('admin/login', NULL)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->signin()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 02:53:37 --> Argument 2 passed to view() must be of the type array, null given, called in /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php on line 57
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(57): view('admin/login', NULL)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->signin()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 03:09:49 --> Argument 2 passed to view() must be of the type array, null given, called in /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php on line 55
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(55): view('admin/login', NULL)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->signin()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 03:09:55 --> Argument 2 passed to view() must be of the type array, null given, called in /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php on line 55
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(55): view('admin/login', NULL)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->signin()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 03:10:00 --> Argument 2 passed to view() must be of the type array, null given, called in /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php on line 55
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(55): view('admin/login', NULL)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->signin()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 03:10:06 --> Argument 2 passed to view() must be of the type array, null given, called in /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php on line 55
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(55): view('admin/login', NULL)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->signin()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 03:10:37 --> Argument 2 passed to view() must be of the type array, null given, called in /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php on line 55
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(55): view('admin/login', NULL)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->signin()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 03:10:59 --> Argument 2 passed to view() must be of the type array, null given, called in /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php on line 55
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(55): view('admin/login', NULL)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->signin()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 03:11:03 --> Argument 2 passed to view() must be of the type array, null given, called in /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php on line 55
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(55): view('admin/login', NULL)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->signin()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 03:12:31 --> Argument 2 passed to view() must be of the type array, null given, called in /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php on line 55
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(55): view('admin/login', NULL)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->signin()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 03:13:08 --> Argument 2 passed to view() must be of the type array, null given, called in /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php on line 55
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(55): view('admin/login', NULL)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->signin()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 03:16:25 -->  route cannot be found while reverse-routing.
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(56): redirect('category')
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->signin()
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-16 03:16:28 -->  route cannot be found while reverse-routing.
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(56): redirect('category')
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->signin()
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-16 03:16:31 -->  route cannot be found while reverse-routing.
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(56): redirect('category')
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->signin()
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-16 03:17:04 -->  route cannot be found while reverse-routing.
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(56): redirect('Category')
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->signin()
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-16 03:17:08 -->  route cannot be found while reverse-routing.
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(56): redirect('Category')
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->signin()
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-16 03:17:51 -->  route cannot be found while reverse-routing.
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(56): redirect('Category')
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->signin()
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-16 03:19:00 -->  route cannot be found while reverse-routing.
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(33): redirect('Category')
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->signin()
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-16 03:20:04 --> Use of undefined constant Category - assumed 'Category' (this will throw an Error in a future version of PHP)
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/vntcbq34d...', 33, Array)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->signin()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 03:20:26 -->  route cannot be found while reverse-routing.
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Admin.php(33): redirect('Category')
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Admin->signin()
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-16 04:33:46 --> syntax error, unexpected '}', expecting end of file
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('/Category/add')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/Category/add')
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 04:33:49 --> syntax error, unexpected '}', expecting end of file
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('/Category/add')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/Category/add')
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 04:35:21 --> syntax error, unexpected '}', expecting end of file
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('/Category/add')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/Category/add')
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 04:35:23 --> syntax error, unexpected '}', expecting end of file
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('/Category/add')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/Category/add')
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 04:35:25 --> syntax error, unexpected '}', expecting end of file
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('/Category')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/Category')
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 04:35:27 --> syntax error, unexpected '}', expecting end of file
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('/Category')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/Category')
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 04:36:05 --> Invalid argument supplied for foreach()
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Category.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/vntcbq34d...', 93, Array)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->addcategory()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 04:36:22 --> Invalid argument supplied for foreach()
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Category.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/vntcbq34d...', 93, Array)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->addcategory()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 04:38:10 --> Invalid argument supplied for foreach()
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Category.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/vntcbq34d...', 93, Array)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->addcategory()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 04:38:18 --> Invalid argument supplied for foreach()
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Category.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/vntcbq34d...', 93, Array)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->addcategory()
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-16 06:55:17 --> move_uploaded_file(assets/images/attachments/json.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', '/home/vntcbq34d...', 69, Array)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Category.php(69): move_uploaded_file('/tmp/phpiXCUpT', 'assets/images/a...')
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->addcategory()
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-16 06:55:55 --> move_uploaded_file(assets/images/attachments/json.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', '/home/vntcbq34d...', 69, Array)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Category.php(69): move_uploaded_file('/tmp/phpz6ZCme', 'assets/images/a...')
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->addcategory()
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-16 06:56:00 --> move_uploaded_file(assets/images/attachments/json.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', '/home/vntcbq34d...', 69, Array)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Category.php(69): move_uploaded_file('/tmp/phpiEJ5fn', 'assets/images/a...')
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->addcategory()
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-16 06:56:35 --> move_uploaded_file(assets/images/attachments/json.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', '/home/vntcbq34d...', 69, Array)
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/app/Controllers/Category.php(69): move_uploaded_file('/tmp/phpO58TiT', 'assets/images/a...')
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->addcategory()
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#4 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-16 07:29:31 --> Call to a member function delete() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->delete('17')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 07:35:34 --> Call to a member function table() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->delete('14')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-16 07:39:32 --> Call to a member function table() on null
+#0 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(924): App\Controllers\Category->delete('17')
+#1 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 /home/vntcbq34d1v5/public_html/cdncc/frontend/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/vntcbq34d1v5/public_html/cdncc/frontend/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}

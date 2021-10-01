@@ -1,0 +1,199 @@
+CRITICAL - 2021-03-05 10:01:01 --> Division by zero
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Views\home.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'F:\\wamp\\www\\fre...', 172, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\View\View.php(246): include('F:\\wamp\\www\\fre...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('home', Array, true)
+#3 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Home.php(37): view('home', Array)
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->index()
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-05 10:01:09 --> Division by zero
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Views\home.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'F:\\wamp\\www\\fre...', 172, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\View\View.php(246): include('F:\\wamp\\www\\fre...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\Common.php(1119): CodeIgniter\View\View->render('home', Array, true)
+#3 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Home.php(37): view('home', Array)
+#4 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Home->index()
+#5 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-05 10:13:55 --> Division by zero
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Ajax.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'F:\\wamp\\www\\fre...', 65, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Ajax->get_packages()
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 10:13:56 --> Division by zero
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Ajax.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'F:\\wamp\\www\\fre...', 65, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Ajax->get_packages()
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 10:13:57 --> Division by zero
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Ajax.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'F:\\wamp\\www\\fre...', 65, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Ajax->get_packages()
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 10:13:58 --> Division by zero
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Ajax.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'F:\\wamp\\www\\fre...', 65, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Ajax->get_packages()
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 10:18:34 --> syntax error, unexpected '$profite_perce' (T_VARIABLE)
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/ajax/get_packa...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/ajax/get_packa...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 10:18:35 --> syntax error, unexpected '$profite_perce' (T_VARIABLE)
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/ajax/get_packa...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/ajax/get_packa...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 10:18:55 --> syntax error, unexpected '$profite_perce' (T_VARIABLE)
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/ajax/get_packa...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/ajax/get_packa...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 10:18:56 --> syntax error, unexpected '$profite_perce' (T_VARIABLE)
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/ajax/get_packa...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/ajax/get_packa...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 10:18:56 --> syntax error, unexpected '$profite_perce' (T_VARIABLE)
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/ajax/get_packa...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/ajax/get_packa...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 10:18:58 --> syntax error, unexpected '$profite_perce' (T_VARIABLE)
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/ajax/get_packa...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/ajax/get_packa...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 10:18:59 --> syntax error, unexpected '$profite_perce' (T_VARIABLE)
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/ajax/get_packa...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/ajax/get_packa...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 10:19:01 --> syntax error, unexpected '$profite_perce' (T_VARIABLE)
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/ajax/get_packa...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/ajax/get_packa...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 10:19:04 --> syntax error, unexpected '$profite_perce' (T_VARIABLE)
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/ajax/get_packa...')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/ajax/get_packa...')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 10:19:29 --> Division by zero
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Ajax.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'F:\\wamp\\www\\fre...', 238, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Ajax->get_addons()
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 10:19:30 --> Division by zero
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Ajax.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'F:\\wamp\\www\\fre...', 238, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Ajax->get_addons()
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 10:19:30 --> Division by zero
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Ajax.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'F:\\wamp\\www\\fre...', 238, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Ajax->get_addons()
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 10:20:08 --> Undefined variable: perc
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Ajax.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 242, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Ajax->get_addons()
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 10:20:12 --> Undefined variable: perc
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Ajax.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 242, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Ajax->get_addons()
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 10:20:35 --> Undefined variable: perc
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Ajax.php(244): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 244, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Ajax->get_addons()
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 10:32:57 --> Trying to get property 'countAllResults' of non-object
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Payment.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'F:\\wamp\\www\\fre...', 16, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Payment->index()
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 10:33:11 --> Call to a member function countAllResults() on array
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Payment->index()
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 10:33:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Payment->index()
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-05 11:01:23 --> syntax error, unexpected ')', expecting ']'
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('/payment')
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(799): CodeIgniter\Router\Router->handle('/payment')
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(370): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 12:00:06 --> Undefined variable: rss1
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Payment.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\wamp\\www\\fre...', 62, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Payment->index()
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 12:01:40 --> Array to string conversion
+#0 F:\wamp\www\freelancer\sunstone\frontend\app\Controllers\Payment.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'F:\\wamp\\www\\fre...', 45, Array)
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Payment->index()
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#3 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-05 12:14:17 --> Call to undefined function App\Controllers\get_package_sale_price()
+#0 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(924): App\Controllers\Payment->index()
+#1 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#2 F:\wamp\www\freelancer\sunstone\frontend\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\wamp\www\freelancer\sunstone\frontend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
